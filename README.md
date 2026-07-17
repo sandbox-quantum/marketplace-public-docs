@@ -4,7 +4,7 @@
 
 # LQM documentation for self-hosted marketplace products
 
-This documentation provides instructions, guidelines and tutorials to get started with our publicly available Lare Quantitative Models (AQCat, etc) on marketplaces platforms. 
+This documentation provides instructions, guidelines and tutorials to get started with our publicly available Large Quantitative Models (AQCat, etc) on marketplaces platforms. 
 
 ## Support
 
