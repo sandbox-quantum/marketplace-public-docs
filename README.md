@@ -4,10 +4,10 @@
 
 # LQM documentation for self-hosted marketplace products
 
-This documentation provides instructions, guidelines and tutorials to get started with our publicly available Large Quantitative Models (AQCat, etc) on marketplaces platforms. 
+This documentation provides instructions, guidelines and tutorials to get started with our publicly available Large Quantitative Models (AQCat, etc) on marketplace platforms. 
 
 ## Support
 
-If you encounter any issue with this documentation, please consider creating an issue on this repository, or contact us at support.aisim@sandboxaq.com and add “[marketplace docs]” to the email title.
+If you encounter any issue with this documentation, please consider creating an issue in this repository, or contact us at support.aisim@sandboxaq.com and add “[marketplace docs]” to the email title.
 
 © SandboxAQ 2026
