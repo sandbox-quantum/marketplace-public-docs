@@ -1,0 +1,68 @@
+{
+  "predictions": [
+    {
+      "combo_key": "CO_mp-102_111_167_True",
+      "placement_idx": 0,
+      "adsorbate": "*CO",
+      "energy": -7.23,
+      "max_force": 0.04,
+      "is_relaxed": true,
+      "is_spin_off": false,
+      "is_low_fi": false,
+      "is_anomalous": false,
+      "is_desorbed": false,
+      "is_dissociated": false,
+      "is_intercalated": false,
+      "is_surface_changed": false,
+      "traj_file": "trajectories/CO_mp-102_111_167_True_p000.traj"
+    },
+    {
+      "combo_key": "CO_mp-102_100_142_True",
+      "placement_idx": 0,
+      "adsorbate": "*CO",
+      "energy": -6.79,
+      "max_force": 0.05,
+      "is_relaxed": true,
+      "is_spin_off": false,
+      "is_low_fi": false,
+      "is_anomalous": false,
+      "is_desorbed": false,
+      "is_dissociated": false,
+      "is_intercalated": false,
+      "is_surface_changed": false,
+      "traj_file": "trajectories/CO_mp-102_100_142_True_p000.traj"
+    },
+    {
+      "combo_key": "OH_mp-102_111_167_True",
+      "placement_idx": 0,
+      "adsorbate": "*OH",
+      "energy": -8.11,
+      "max_force": 0.04,
+      "is_relaxed": true,
+      "is_spin_off": false,
+      "is_low_fi": false,
+      "is_anomalous": false,
+      "is_desorbed": false,
+      "is_dissociated": false,
+      "is_intercalated": false,
+      "is_surface_changed": false,
+      "traj_file": "trajectories/OH_mp-102_111_167_True_p000.traj"
+    },
+    {
+      "combo_key": "CO_mp-102_111_167_True",
+      "placement_idx": 0,
+      "adsorbate": "*CO",
+      "energy": -7.20,
+      "max_force": 0.03,
+      "is_relaxed": true,
+      "is_spin_off": false,
+      "is_low_fi": false,
+      "is_anomalous": false,
+      "is_desorbed": false,
+      "is_dissociated": false,
+      "is_intercalated": false,
+      "is_surface_changed": false,
+      "traj_file": "trajectories/CO_mp-102_111_167_True_p000.traj"
+    }
+  ]
+}

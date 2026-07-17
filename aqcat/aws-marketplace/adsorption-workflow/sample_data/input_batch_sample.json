@@ -1,0 +1,35 @@
+{
+  "mode": "min-adsorption-energy-workflow",
+  "instances": [
+    {
+      "bulk_src_ids": ["mp-102"],
+      "facets": [[1, 1, 1]],
+      "adsorbates": ["*CO"],
+      "num_placements": 1
+    },
+    {
+      "bulk_src_ids": ["mp-102"],
+      "facets": [[1, 0, 0]],
+      "adsorbates": ["*CO"],
+      "num_placements": 1
+    },
+    {
+      "bulk_src_ids": ["mp-102"],
+      "facets": [[1, 1, 1]],
+      "adsorbates": ["*OH"],
+      "num_placements": 1
+    },
+    {
+      "bulk_composition_contains": "Cu",
+      "facets": [[1, 1, 1]],
+      "adsorbates": ["*CO"],
+      "num_placements": 1
+    }
+  ],
+  "parameters": {
+    "seed": 42,
+    "fmax": 0.05,
+    "max_steps": 150,
+    "converged_placements_only": true
+  }
+}

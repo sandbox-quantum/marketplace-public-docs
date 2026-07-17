@@ -1,0 +1,17 @@
+{
+  "mode": "min-adsorption-energy-workflow",
+  "instances": [
+    {
+      "bulk_src_ids": ["mp-102"],
+      "facets": [[1, 1, 1]],
+      "adsorbates": ["*CO"],
+      "num_placements": 3
+    }
+  ],
+  "parameters": {
+    "seed": 42,
+    "fmax": 0.05,
+    "max_steps": 150,
+    "converged_placements_only": true
+  }
+}

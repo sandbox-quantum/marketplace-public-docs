@@ -1,0 +1,19 @@
+{
+  "mode": "mlp",
+  "instances": [
+    {
+      "symbols": ["H", "H"],
+      "positions": [
+        [0.0, 0.0, 0.0],
+        [0.74, 0.0, 0.0]
+      ],
+      "cell": [
+        [0.0, 0.0, 0.0],
+        [0.0, 0.0, 0.0],
+        [0.0, 0.0, 0.0]
+      ],
+      "pbc": [false, false, false]
+    }
+  ],
+  "parameters": {}
+}
