@@ -150,9 +150,9 @@ One element in `predictions` per placement. Placements for the same bulk/facet/a
 | `is_dissociated` | bool | Adsorbate broke apart during relaxation. | `false` |
 | `is_intercalated` | bool | Adsorbate migrated into the bulk. | `false` |
 | `is_surface_changed` | bool | The surface reconstructed significantly. | `false` |
-| `traj_file` | string | Path to the relaxation trajectory (`trajectories/*.traj`). | `"trajectories/CO_mp-102_111_167_True_p000.traj"` |
+| `traj_file` | string | Path to the relaxation trajectory (`trajectories/*.traj`). **Informational only** — this file is written to server-side scratch and is **not** uploaded to S3 or otherwise downloadable. To obtain the relaxed geometry, use `atoms` (set `metadata_only: false`). | `"trajectories/CO_mp-102_111_167_True_p000.traj"` |
 | `slab_id` | string \| null | Identifier of the slab the adsorbate was placed on. | `"mp-102_111_167_True"` |
-| `atoms` | object \| null | Full serialized relaxed structure (positions, cell, symbols, forces, …). Omitted (`null`) unless `metadata_only` is set to `false` in the request parameters. | `null` |
+| `atoms` | object \| null | Full serialized relaxed structure as an ASE `Atoms` dict — `symbols`, `positions` (Å), `cell` (Å), `pbc`, plus `tags` (per-atom region tags), `constraints` (e.g. `FixAtoms` — slab atoms held fixed during relaxation; their forces are ~0), `magmoms` (per-atom magnetic moments), and `info` (a dict of per-calculation metadata: `energy`, per-atom `forces`, the quality flags, `adsorbate`, `slab_id`). Note that **per-atom forces live in `atoms["info"]["forces"]`**, not as a top-level `atoms` key. Omitted (`null`) unless `metadata_only` is set to `false` in the request parameters. | `null` |
 
 > The boolean `is_*` flags are **screening quality signals** — a physically meaningful binding
 > energy is one where `is_relaxed` is `true` and the failure flags (`is_desorbed`,

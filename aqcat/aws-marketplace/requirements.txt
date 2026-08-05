@@ -1,2 +1,3 @@
 boto3>=1.34
 sagemaker>=3.4.0
+ase>=3.22          # ASE Atoms helpers and client-side relaxation examples in the notebook

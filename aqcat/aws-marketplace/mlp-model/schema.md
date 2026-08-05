@@ -38,7 +38,7 @@ check. Request and response bodies are both `application/json`.
 |------|------|----------|-------------|
 | `mode` | string | Optional | Defaults to `"mlp"` (this mode), so it can be omitted. Set `"min-adsorption-energy-workflow"` to run the adsorption workflow instead, which expects a completely different instance shape. |
 | `instances` | array&lt;object&gt; | **Required** | One or more structures to score. Each is evaluated with one independent forward pass; the model returns one prediction per instance, in the same order. |
-| `parameters` | object | Optional | Accepted for envelope compatibility with workflow mode. MLP mode has **no tunable parameters** — pass `{}`. |
+| `parameters` | object | Optional | Accepted for envelope compatibility with workflow mode. MLP mode has **no tunable parameters** — pass `{}`. The workflow's `metadata_only` has **no effect** here: MLP always returns `energy`/`forces` (there is no relaxed `atoms` structure to omit). |
 
 ### Instance object (`MLPInstance`)
 
