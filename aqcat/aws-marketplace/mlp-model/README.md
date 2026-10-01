@@ -20,7 +20,7 @@ for you.
 
 ## Use cases
 
-- Geometry optimization — drive your own optimizer (e.g. ASE `BFGS`/`LBFGS`) with the returned
+- Geometry optimization — drive your own optimizer (e.g. ASE `FIRE`) with the returned
   forces, calling the endpoint once per step.
 - Molecular dynamics — evaluate energy and forces at each MD step.
 - Single-point energies — score a fixed geometry (molecule or periodic cell) without relaxation.
