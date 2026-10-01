@@ -1,0 +1,17 @@
+{
+  "predictions": [
+    {
+      "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCCN1CCOCC1",
+      "uniprot_id": "P00533",
+      "target_name": "EGFR",
+      "potency_mean": 7.64,
+      "potency_sigma": 1.12,
+      "applicability_domain": 0.83,
+      "off_targets": [
+        { "uniprot_id": "P07550", "target_name": "ADRB2", "potency_mean": 5.10, "potency_sigma": 1.20, "applicability_domain": 0.29, "selectivity": 2.54 },
+        { "uniprot_id": "P11362", "target_name": "FGFR1", "potency_mean": 6.80, "potency_sigma": 0.95, "applicability_domain": 0.61, "selectivity": 0.84 }
+      ]
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,48 @@
+{
+  "predictions": [
+    {
+      "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCCN1CCOCC1",
+      "panel": "human_kinome",
+      "n_targets": 604,
+      "hits": [
+        {
+          "uniprot_id": "P00533",
+          "target_name": "EGFR",
+          "potency_mean": 7.64,
+          "potency_sigma": 1.12,
+          "prob_above_threshold": 0.90,
+          "alert": true,
+          "applicability_domain": 1.0,
+          "gene_symbol": "EGFR",
+          "target_class": "Kinase",
+          "source": "curated"
+        },
+        {
+          "uniprot_id": "P04626",
+          "target_name": "ERBB2",
+          "potency_mean": 7.18,
+          "potency_sigma": 1.05,
+          "prob_above_threshold": 0.71,
+          "alert": true,
+          "applicability_domain": 0.88,
+          "gene_symbol": "ERBB2",
+          "target_class": "Kinase",
+          "source": "curated"
+        },
+        {
+          "uniprot_id": "Q9UM73",
+          "target_name": "ALK",
+          "potency_mean": 6.42,
+          "potency_sigma": 1.30,
+          "prob_above_threshold": 0.33,
+          "alert": false,
+          "applicability_domain": 0.74,
+          "gene_symbol": "ALK",
+          "target_class": "Kinase",
+          "source": "curated"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

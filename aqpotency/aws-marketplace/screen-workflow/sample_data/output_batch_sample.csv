@@ -1,0 +1,5 @@
+SMILES,potency_mean,potency_sigma,uniprot_id,applicability_domain
+CCO,3.28,0.51,P00533,0.38
+c1ccccc1,4.10,0.42,P00533,0.55
+CC(=O)Oc1ccccc1C(=O)O,4.21,0.95,P00533,0.31
+COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCCN1CCOCC1,7.64,1.12,P00533,0.83
