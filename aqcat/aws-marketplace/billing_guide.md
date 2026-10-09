@@ -91,7 +91,3 @@ multiple entries in the `instances` list of one request — that is the recommen
 path and it does not change how `ConsumedUnits` is computed (it's still per instance / per forward
 pass). The **batch-transform endpoint is not recommended** (see each workflow's README); it carries
 the same software metering but adds S3 plumbing for little benefit in AQCat's iterative use cases.
-
-> Authoritative source: `take_metering_units` and the placement-generation logic in
-> `mlops-utils/examples/aqcat/adapter.py`, and the Billing section of `mlops-utils/SUMMARY.md`, in
-> `sandbox-quantum/external-buildingblocks-collab`.
